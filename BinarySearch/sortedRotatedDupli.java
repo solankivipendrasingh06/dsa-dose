@@ -13,7 +13,7 @@ public class sortedRotatedDupli {
             if(arr[mid] == target){
                 return mid;
             }
-            if(arr[low] <=arr[mid]){
+            if(arr[low] <= arr[mid]){
                 if(arr[low] <= target && arr[mid]<target){
                     low = mid + 1;
                 }else{
