@@ -1,4 +1,4 @@
-package Treee;
+package Tree;
 
 class Node{
     int data;
